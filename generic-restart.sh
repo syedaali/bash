@@ -1,5 +1,4 @@
 #!/bin/bash
-# Restart all concentrators
 # Syed Ali
 # December 2013
 # This script may be used to start/stop services on remote hosts using 'ssh'
