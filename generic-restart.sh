@@ -65,7 +65,7 @@ function percent () {
 #ensures script is running as a particular user
 function check_user() {
     username=$($ID -u -n)
-    if [ $username != "tentakel" ]
+    if [ $username != ${USER} ]
         then
         $ECHO "`${DATE} +%Y%m%d-%H:%M:%S` ERROR: must run this script as user ${USER}"
         exit 1
